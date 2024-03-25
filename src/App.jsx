@@ -23,13 +23,13 @@ function App() {
             A CSS guide for your gradient texts
           </div>
           <div className="text-center flex my-4 justify-center gap-4">
-            <a className="bg-cyan-500 px-4 py-2 rounded-lg">Github</a>
-            <a className="bg-cyan-500 px-4 py-2 rounded-lg">About</a>
+            <button className="bg-cyan-500 font-bold px-4 py-2 rounded-lg">Github</button>
+            <button className="bg-cyan-500 font-bold px-4 py-2 rounded-lg">About</button>
           </div>
         </div>
       </div>
       <div className=" bg-black justify-center flex">
-        <div className="max-w-[55%] w-full py-8">
+        <div className="max-w-[98] sm:max-w-[90%] md:max-w-[75%] xl:max-w-[55%] w-full py-8">
           {gradients.map((gradient, index) => (
             <Codecard key={index} indx={index + 1} className={gradient.className} code={gradient.code} />
           ))}
