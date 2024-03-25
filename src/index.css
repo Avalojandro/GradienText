@@ -12,3 +12,22 @@
 .bg-blue-brand{
   background-color: #111327;
 }
+
+/* Para navegadores WebKit (Chrome, Safari, etc.) */
+/* Cambiar el color del scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Ancho del scrollbar */
+  height: 8px; /* Ancho del scrollbar */
+  background-color: transparent; /* Color de fondo del scrollbar */
+}
+
+/* Cambiar el color del thumb (el botón que puedes arrastrar) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(58, 58, 58); /* Color del thumb */
+  border-radius: 10px; /* Redondear los bordes del thumb */
+}
+
+/* Cambiar el color de la pista (el área sobre la cual se desplaza el thumb) */
+::-webkit-scrollbar-track {
+  background-color: rgb(26, 26, 26); /* Color de fondo de la pista */
+}

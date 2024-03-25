@@ -12,6 +12,18 @@ const gradients = [
 }`,
   },
   {
+    name: "october-silence",
+    className: "october-silence",
+    code: `.october-silence {
+        background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+      }`,
+  },
+  {
     name: "sharp-blues",
     className: "sharp-blues",
     code: `.sharp-blues{
@@ -64,18 +76,6 @@ const gradients = [
     className: "phoenix-start",
     code: `.phoenix-start {
         background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-      }`,
-  },
-  {
-    name: "october-silence",
-    className: "october-silence",
-    code: `.october-silence {
-        background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
