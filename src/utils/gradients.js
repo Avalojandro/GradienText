@@ -1,8 +1,8 @@
 const gradients = [
   {
-    name: "gradientext",
-    className: "gradientext",
-    code: `.gradientext {
+    name: "morning",
+    className: "morning",
+    code: `.morning {
     background-color: red;
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     -webkit-background-clip: text;
