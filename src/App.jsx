@@ -15,16 +15,16 @@ function App() {
         rel="stylesheet"
       ></link>
       <div className=" h-96 bg-blue-brand text-white flex justify-center items-center">
-        <div>
-          <div className="archivo-black-regular text-7xl phoenix-start">
+        <div className="text-center">
+          <div className="archivo-black-regular text-4xl md:text-6xl xl:text-7xl phoenix-start">
             GRADIENTEXT
           </div>
-          <div className="winter-neva text-center mt-4 font-extrabold text-2xl">
+          <div className="winter-neva text-center mt-4 font-extrabold text-xl md:text-2xl">
             A CSS guide for your gradient texts
           </div>
           <div className="text-center flex my-4 justify-center gap-4">
-            <button className="bg-cyan-500 font-bold px-4 py-2 rounded-lg">Github</button>
-            <button className="bg-cyan-500 font-bold px-4 py-2 rounded-lg">About</button>
+            <button className="bg-cyan-500 hover:text-cyan-500 hover:bg-white transition ease-in-out font-bold px-4 py-2 rounded-lg">Github</button>
+            <button className="bg-cyan-500 hover:text-cyan-500 hover:bg-white transition ease-in-out font-bold px-4 py-2 rounded-lg">About</button>
           </div>
         </div>
       </div>
