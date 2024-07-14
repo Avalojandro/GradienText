@@ -361,6 +361,304 @@ const gradients = [
     -moz-text-fill-color: transparent;  
 }`,
   },
+  {
+    name: "grown-early",
+    className: "grown-early",
+    code: `.grown-early {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "light-blue",
+    className: "light-blue",
+    code: `.light-blue {
+    background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "frozen-heat",
+    className: "frozen-heat",
+    code: `.frozen-heat {
+    background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);  
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "night-call",
+    className: "night-call",
+    code: `.night-call {
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "soft-lipstick",
+    className: "soft-lipstick",
+    code: `.soft-lipstick {
+    background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "sunroof",
+    className: "sunroof",
+    code: `.sunroof {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(255,211,31,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "perfect-white",
+    className: "perfect-white",
+    code: `.perfect-white {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "angel-care",
+    className: "angel-care",
+    code: `.angel-care {
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "grass-shampoo",
+    className: "grass-shampoo",
+    code: `.grass-shampoo {
+    background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "landing-aircraft",
+    className: "landing-aircraft",
+    code: `.landing-aircraft {
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "sea-lord",
+    className: "sea-lord",
+    code: `.sea-lord {
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "sand-strike",
+    className: "sand-strike",
+    code: `.sand-strike {
+    background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "juicy-cake",
+    className: "juicy-cake",
+    code: `.juicy-cake {
+    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "millenium-pine",
+    className: "millenium-pine",
+    code: `.millenium-pine {
+    background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "north-miracle",
+    className: "north-miracle",
+    code: `.north-miracle {
+    background-image: linear-gradient(to right, #2dc449 0%, #fc00ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "baby",
+    className: "baby",
+    code: `.baby {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(31,201,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "marble-wall",
+    className: "marble-wall",
+    code: `.marble-wall {
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    background-blend-mode: normal,color-burn;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "chemic-aqua",
+    className: "chemic-aqua",
+    code: `.chemic-aqua {
+    background-color: #CDDCDC;
+    background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background-blend-mode: screen, overlay;
+    background-blend-mode: normal,color-burn;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "hidden-jaguar",
+    className: "hidden-jaguar",
+    code: `.hidden-jaguar {
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "princess",
+    className: "princess",
+    code: `.princess {
+    background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    background-blend-mode: normal,color-burn;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "amour",
+    className: "amour",
+    code: `.amour {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "sky-santuary",
+    className: "sky-santuary",
+    code: `.sky-santuary {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "pink-nebula",
+    className: "pink-nebula",
+    code: `.pink-nebula {
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;  
+}`,
+  },
+  {
+    name: "wild-breath",
+    className: "wild-breath",
+    code: `.wild-breath {
+    background: rgb(104,48,23);
+    background: linear-gradient(90deg, rgba(104,48,23,1) 0%, rgba(219,224,59,1) 50%, rgba(1,255,0,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}`,
+  },
+  
 
 ];
 

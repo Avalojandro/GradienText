@@ -10,7 +10,8 @@
 }
 
 .bg-blue-brand{
-  background-color: #111327;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,23,77,1) 35%, rgba(8,18,91,1) 100%);
 }
 
 /* Para navegadores WebKit (Chrome, Safari, etc.) */
