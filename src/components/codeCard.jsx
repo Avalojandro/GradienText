@@ -30,7 +30,7 @@ export default function CodeCard({ indx = 0, code = "", className = "" }) {
         <div className="absolute top-0 right-0 mr-4 mt-4 z-10">
           <button
             className="bg-[#2B2B2B] inline sm:hidden text-white p-2 rounded hover:bg-gray-700 transition-all ease-in-out"
-            onClick={() => {setShowSecondSVG(true); handleButtonClick()}}
+            onClick={() => { setShowSecondSVG(true); handleButtonClick() }}
           >
             {showSecondSVG ? (
               <svg
@@ -66,10 +66,12 @@ export default function CodeCard({ indx = 0, code = "", className = "" }) {
           </button>
         </div>
       </div>
-      <div className="bg-[#19191a] hidden sm:flex overflow-auto text-left p-4 w-full rounded-tr-2xl rounded-br-2xl items-center relative">
-        <pre>
-          <code className={className}>{code}</code>
-        </pre>
+      <div className="bg-[#19191a] p-4  hidden sm:flex overflow-x-hidden text-left  w-full rounded-tr-2xl rounded-br-2xl items-center relative">
+        <div className="overflow-auto">
+          <pre>
+            <code className={className}>{code}</code>
+          </pre>
+        </div>
         <div className="absolute top-0 right-0 mr-4 mt-4 z-10">
           <button
             className="bg-[#2B2B2B] text-white p-2 rounded hover:bg-gray-700 transition-all ease-in-out"
