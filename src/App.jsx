@@ -37,7 +37,14 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
+  const fechaActual = new Date();
+  const MonthId = fechaActual.getMonth();
+  const YearId = fechaActual.getFullYear();
+  const Month = MonthId + 1;
+  const Year = YearId.toString().slice(-2);
+
   return (
+    
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,10 +56,10 @@ function App() {
         <nav className="py-8 px-8 lg:px-16 flex">
           <div className="archivo-black-regular w-full">
             <span className="text-xl lg:text-2xl summer-games">GradienText</span>
-            <span className="text-cyan-500 px-1 rounded-full text-xs">v1.7.24</span>
+            <span className="text-cyan-500 px-1 rounded-full text-xs">v1.{Month}.{Year}</span>
           </div>
           <div>
-            <a href="https://github.com/Avalojandro/GradienText">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Avalojandro/GradienText">
               <svg
                 viewBox="0 0 1024 1024"
                 fill="currentColor"
@@ -68,9 +75,9 @@ function App() {
         <div className="flex h-80  items-center">
           <div className="px-16 flex items-center w-full">
             <div className="w-full text-center lg:text-left">
-              <p className="text-gray-400 text-sm">+50 variants &#x2022; Open Source &#x2022; Free</p>
+              <p className="text-gray-400 text-sm">50 styles &#x2022; Open Source &#x2022; Free</p>
               <h2 className="font-bold text-3xl lg:text-5xl">Enhance Your Web Text with <span className=" text-yellow-500">Stunning</span> CSS Gradients</h2>
-              <div className="pt-4">By <a href="https://github.com/Avalojandro" className="text-[#ff4800]">Avalojandro</a></div></div>
+              <div className="pt-4">By <a href="https://github.com/Avalojandro" target="_blank" rel="noopener noreferrer" className="text-[#ff4800]">Avalojandro</a></div></div>
             <div className={`hidden lg:inline text-center w-full text-[200px] transform ease-in-out love-kiss drop-shadow-2xl font-bold ${fontColor}`}>
               Aa
             </div>
@@ -91,7 +98,7 @@ function App() {
         <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" strokeWidth={1.5} stroke="red" className="size-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
         </svg>
-        <div>By <a href="https://github.com/Avalojandro" className="text-[#ff4800]">Avalojandro</a></div>
+        <div>By <a target="_blank" rel="noopener noreferrer" href="https://github.com/Avalojandro" className="text-[#ff4800]">Avalojandro</a></div>
       </div>
     </>
   );
