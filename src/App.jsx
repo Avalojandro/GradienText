@@ -87,12 +87,6 @@ function App() {
         </div>
         <br /><br /><br />
       </div>
-
-      <div className="flex bg-blue-brand items-center justify-center h-screen w-full">
-        <h1 className="text-9xl summer-games archivo-black-regular">GRADIENTEXT</h1>
-      </div>
-
-
       <div className=" bg-slate-950 justify-center flex">
         <div className="max-w-[98] sm:max-w-[90%] md:max-w-[75%] xl:max-w-[55%] w-full py-8">
           {gradients.map((gradient, index) => (
