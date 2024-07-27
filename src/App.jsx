@@ -77,7 +77,7 @@ function App() {
             <div className="w-full text-center lg:text-left">
               <p className="text-gray-400 text-sm">50 styles &#x2022; Open Source &#x2022; Free</p>
               <h2 className="font-bold text-4xl text-white lg:text-5xl">Enhance Your Web Text with <span className=" text-yellow-500">Stunning</span> CSS Gradients</h2>
-              <div className="pt-4">By <a href="https://github.com/Avalojandro" target="_blank" rel="noopener noreferrer" className="text-[#ff4800]">Avalojandro</a></div>
+              <div className="pt-4 text-white">By <a href="https://github.com/Avalojandro" target="_blank" rel="noopener noreferrer" className="text-[#ff4800]">Avalojandro</a></div>
             </div>
             <div className={`hidden text-right lg:inline w-full text-[200px] transform ease-in-out love-kiss drop-shadow-2xl font-bold ${fontColor}`}>
               Aa
