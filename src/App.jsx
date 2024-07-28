@@ -55,7 +55,7 @@ function App() {
         rel="stylesheet"
       ></link>
       <div className="bg-black">
-        <nav className="max-w-[70%] mx-auto py-8 px-8 lg:px-16 flex">
+        <nav className="xl:max-w-[70%] mx-auto py-8 px-8 lg:px-16 flex">
           <div className="archivo-black-regular w-full">
             <span className="text-xl lg:text-3xl summer-games">GradienText</span> 
           </div>
@@ -72,8 +72,8 @@ function App() {
             </a>
           </div>
         </nav>
-        <div className="max-w-[70%] mx-auto flex h-80  items-center">
-          <div className="px-16 flex items-center w-full">
+        <div className="xl:max-w-[70%] mx-auto flex h-80  items-center">
+          <div className="px-8 md:px-16 flex items-center w-full">
             <div className="w-full text-center lg:text-left">
               <p className="text-gray-400 text-sm">50 styles &#x2022; Open Source &#x2022; Free</p>
               <h2 className="font-bold text-4xl text-white lg:text-5xl">Enhance Your Web Text with <span className=" text-yellow-500">Stunning</span> CSS Gradients</h2>
